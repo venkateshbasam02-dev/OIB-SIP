@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+  background: #0078d7;
+  color: #fff;
+  padding: 15px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffd700;
+}
+
+.btn {
+  background: #ffd700;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #ffcc00;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #0078d7, #00b4d8);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+}
+
+/* About Section */
+.about, .services, .contact {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about p {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+/* Services */
+.service-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service-box {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 250px;
+}
+
+.service-box h3 {
+  color: #0078d7;
+}
+
+/* Contact */
+.contact form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact input, .contact textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  background: #0078d7;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+/* Dark Theme */
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.dark-mode header, .dark-mode footer {
+  background-color: #111;
+}
+
+.dark-mode .service-box {
+  background-color: #222;
+  color: #ddd;
+}

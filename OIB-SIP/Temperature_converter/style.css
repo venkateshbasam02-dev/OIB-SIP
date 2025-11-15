@@ -1,0 +1,66 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #001f3f, #0074D9);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.converter-container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  width: 320px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+input[type="number"] {
+  width: 90%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.unit-selection {
+  margin-bottom: 20px;
+}
+
+.unit-selection label {
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #ffcc00;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ffaa00;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+#resultText {
+  font-size: 18px;
+  color: #00ffcc;
+}
